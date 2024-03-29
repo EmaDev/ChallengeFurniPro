@@ -35,5 +35,6 @@ Una vez que la aplicación esté instalada, podrás disfrutar de las siguientes 
 
 Para cualquier pregunta o problema, no dudes en ponerte en contacto conmigo:
 
-Nombre: Emanuel Cisterna
-Correo Electrónico: emanuel00developer@gmail.com
+- Nombre: Emanuel Cisterna
+
+- Correo Electrónico: emanuel00developer@gmail.com
