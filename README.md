@@ -1,79 +1,39 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Proyecto de Aplicación Móvil para Gestión de Inventario y Ventas
 
-# Getting Started
+## Descripción
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Este proyecto tiene como objetivo proporcionar una solución eficiente para la gestión de inventario y ventas de un cliente que vende diferentes artículos. La aplicación móvil permitirá a los clientes ver y comprar los productos de manera fluida y segura, al mismo tiempo que facilita a los vendedores la interacción con el inventario y las ventas.
 
-## Step 1: Start the Metro Server
+## Instalacion
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- Clona el repositorio.
+- Navega hasta el directorio del proyecto.
+- Ejecuta "yarn" para instalar todas las dependencias.
+- Ejecuta "yarn run android" para iniciar la aplicación en un dispositivo Android.
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
+## Instalacion
+Una vez que la aplicación esté instalada, podrás disfrutar de las siguientes funcionalidades:
 
-## Step 2: Start your Application
+- Splash Screen: Una pantalla de bienvenida inicial que brinda una experiencia agradable al usuario al iniciar la aplicación.
+- Vista General de Productos: Una vista que muestra todos los productos disponibles para la compra.
+- Filtro por Categorías y Artículos: Permite a los usuarios filtrar los productos según categorías específicas y artículos individuales para una búsqueda más eficiente.
+- Búsqueda por Título: Los usuarios pueden buscar productos por su título utilizando una barra de búsqueda integrada.
+- CRUD de Carrito de Compras: Permite a los usuarios agregar, editar y eliminar productos de su carrito de compras.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Herramientas Utilizadas
 
-### For Android
+- React Native CLI: Utilizado para el desarrollo de la aplicación móvil.
+- React Navigation: Biblioteca utilizada para la navegación entre las diferentes pantallas de la aplicación.
+- Zustand: Biblioteca utilizada como manejador de estado para el CRUD del carrito de compras.
+- NativeWind: Utilizado para el diseño y estilización de la interfaz de usuario.
+- react-native-toast-message: Utilizado para mostrar mensajes de notificación al usuario.
+- axios: Biblioteca utilizada para realizar solicitudes HTTP a la API de Dummy JSON.
 
-```bash
-# using npm
-npm run android
+## Contacto
 
-# OR using Yarn
-yarn android
-```
+Para cualquier pregunta o problema, no dudes en ponerte en contacto conmigo:
 
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Nombre: Emanuel Cisterna
+Correo Electrónico: emanuel00developer@gmail.com
